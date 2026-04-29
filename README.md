@@ -10,8 +10,10 @@ Because `curl` works in scripts – loop over payloads, fuzz parameters, automat
 git clone https://github.com/rayen-mansouri/Burp2Curl.git && cd Burp2Curl
 
 
-Usage
+Usage:
 
 ./burp2curl                # paste a request (Ctrl+D to finish)
+
 ./burp2curl request.txt    # from file
+
 cat request.txt | ./burp2curl   # from pipe
